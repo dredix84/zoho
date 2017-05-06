@@ -1,0 +1,27 @@
+{
+  "name": "dredix84/zoho",
+  "description": "A class with helps to intergtae ZOHO invoice.",
+  "license": "MIT",
+  "keywords": [
+    "dredix84",
+    "zoho",
+    "invoice"
+  ],
+  "authors": [
+    {
+      "name": "Andre Dixon",
+      "email": "dredix84@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "dredix84\\zoho\\": "src"
+    }
+  }
+}
